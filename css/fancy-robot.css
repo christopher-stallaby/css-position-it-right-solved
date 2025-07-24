@@ -17,14 +17,15 @@
     border-width: 2px;
     font-size: 18px;
     position: relative;
-    top:150px;
+    top: 250px;
     background: linear-gradient(to bottom, lime, rgb(6, 60, 6), #000000);
 }
 
 .robot-eye-left {
     width: 50px;
     height: 50px;
-    background: radial-gradient(circle, #000000, rgb(0, 110, 255));
+    background-image: url(https://picsum.photos/id/870/200/300?grayscale&blur=2);
+    /* background: radial-gradient(circle, #000000, rgb(0, 110, 255)); */
     border-radius: 50%;
     position: relative;
     left: 50px;
@@ -48,8 +49,9 @@
     border-radius: 50%;
     position: relative;
     left: 190px;
-    top: -150px;
+    top: -50px;
     background: linear-gradient(to bottom, #149adf, #0f4f6f, #000000);
+    
 }
 
 .robot-ear-right {
@@ -60,27 +62,28 @@
     border-radius: 50%;
     position: relative;
     left: -190px;
-    top: -300px;
-    background: linear-gradient(to bottom, #149adf, #0f4f6f, #000000);
+    top: -200px;
+    background: linear-gradient(to top, #149adf, #0f4f6f, #000000);
 }
 
 .robot-nose {
-    width: 0;
-    height: 0;
+    width: 0em;
+    height: 0em;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 100px solid purple;
+    background-image: url(https://picsum.photos/id/870/200/300?grayscale&blur=2);
     position: relative;
     left: 100px;
     top: 10px;
 }
 
 .robot-teeth {
-    width: 200px;
-    height: 90px;
+    width: 65%;
+    height: 25%;
     background: linear-gradient(to bottom, pink, darkred, pink);
     position: relative;
-    left: 50px;
+    left: 55px;
     top: 40px;
     border-radius: 10px;
 }
@@ -102,7 +105,7 @@
     height: 100px;
     position: relative;
     left: 69px;
-    top: -600px;
+    top: -500px;
     border-radius: 50%;
     rotate: 90deg;
 }
@@ -131,6 +134,7 @@
     width: 10px;
     height: 35px;
     background-color: grey;
+    opacity: 0.5;
     position: relative; 
     left: 165px; 
     border-radius: 5%;
